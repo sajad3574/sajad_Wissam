@@ -1,0 +1,185 @@
+font Roboto ../ Link HTML
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+../ CSS
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+___________________________________________________
+font icon
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<i class="fa-light fa-arrow-up-right-from-square"></i>\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Hunt Data</title>
+     <style>
+       table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>URL</th>
+                <th>Upvote</th>
+                <th>Date</th>
+                <th>Day</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Colorsinspo</td>
+                <td>https://www.producthunt.com</td>
+                <td>832</td>
+                <td>Jan 1, 2020</td>
+                <td>Wednesday</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>The Remote Weekly</td>
+                <td>https://www.producthunt.com</td>
+                <td>637</td>
+                <td>Jan 2, 2020</td>
+                <td>Thursday</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Summerian</td>
+                <td>https://www.producthunt.com</td>
+                <td>459</td>
+                <td>Jan 3, 2020</td>
+                <td>Friday</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>IdeasDrop</td>
+                <td>https://www.producthunt.com</td>
+                <td>547</td>
+                <td>Jan 4, 2020</td>
+                <td>Saturday</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Acapella Extractor</td>
+                <td>https://www.producthunt.com</td>
+                <td>675</td>
+                <td>Jan 5, 2020</td>
+                <td>Sunday</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Resemble Clone</td>
+                <td>https://www.producthunt.com</td>
+                <td>747</td>
+                <td>Jan 6, 2020</td>
+                <td>Monday</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>30 seconds of code</td>
+                <td>https://www.producthunt.com</td>
+                <td>916</td>
+                <td>Jan 7, 2020</td>
+                <td>Tuesday</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>All Design Conferences</td>
+                <td>https://www.producthunt.com</td>
+                <td>748</td>
+                <td>Jan 8, 2020</td>
+                <td>Wednesday</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>GrowSurf 2.0</td>
+                <td>https://www.producthunt.com</td>
+                <td>732</td>
+                <td>Jan 9, 2020</td>
+                <td>Thursday</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>LetterWell</td>
+                <td>https://www.producthunt.com</td>
+                <td>927</td>
+                <td>Jan 10, 2020</td>
+                <td>Friday</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Roam Research</td>
+                <td>https://www.producthunt.com</td>
+                <td>875</td>
+                <td>Jan 11, 2020</td>
+                <td>Saturday</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>NoCodeAPI</td>
+                <td>https://www.producthunt.com</td>
+                <td>956</td>
+                <td>Jan 12, 2020</td>
+                <td>Sunday</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Navigator 1.0</td>
+                <td>https://www.producth

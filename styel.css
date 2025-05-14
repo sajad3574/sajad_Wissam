@@ -1,0 +1,621 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    scroll-behavior: smooth
+}
+
+
+body{
+    background: #F8FAFC;
+}
+
+header{
+    top: 0;
+    margin: 0 auto;
+  max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+header img{
+    width: 100px;
+    height: 30px;
+}
+
+header div ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    direction: rtl;
+}
+
+
+header div ul li{
+    position: relative;
+    
+}
+
+
+header div ul li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 25px;
+    background-color: #000000;
+    height: 4px;
+   
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+}
+
+
+header div ul li:hover::after{
+    transform: scaleX(1);
+}
+
+header div ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    
+}
+
+header div ul li a:hover{
+    color: #0466c1;
+    transition: 0.5s;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+  height: 100vh;  
+
+
+}
+
+
+main .div0-main {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+     max-width: 900px;
+   
+}
+
+main .div0-main .div-main{
+    width: 300px;
+    
+
+}
+
+
+main .div0-main .div-main .main-h2 nav{
+color: #000000;
+font-size: 50px;
+font-weight: bold;
+font-family: "Roboto", sans-serif;
+margin-bottom: 3px;
+}
+
+
+main .div0-main .div-main .main-h2{
+    font-size: 40px;
+    font-weight: bold;
+font-family: "Roboto", sans-serif;
+margin-bottom: 6px;
+cursor: default;
+}
+
+
+main .div0-main .div-main .p-main{
+    font-family: "Roboto", sans-serif;
+    width: 300px;
+    color: #3a3737e6;
+    margin-bottom: 15px;
+    cursor: default;
+}
+
+
+main .div0-main .div-main .icon-main{
+margin-bottom: 10px;
+}
+
+main .div0-main .div-main .icon-main .icon1{
+    margin-bottom: 5px;
+}
+
+
+main .div0-main .div-main .icon-main .icon1 a{
+margin: 0px 10.6px ;
+}
+
+
+main .div0-main .div-main .icon-main .icon2 a{
+margin: 0px 10px ;
+}
+
+
+main .div0-main .div-main .icon-main .icon1 a i{
+    font-size: 20px;
+    color: #000;
+    transition: 0.5s;
+    }
+
+    main .div0-main .div-main .icon-main .icon1 a i:hover{
+    color: #0466c1;
+    transition: 0.5s;
+    transform: scale(1.1);
+    }
+
+
+    
+main .div0-main .div-main .icon-main .icon2 a i{
+    font-size: 20px;
+    color: #000;
+    transition: 0.5s;
+    }
+
+    main .div0-main .div-main .icon-main .icon2 a i:hover{
+    color: #0466c1;
+    transition: 0.5s;
+    transform: scale(1.1);
+    }
+    
+
+main .div0-main .div-main .button-main{
+background-color: #000000;
+width: 130px;
+height: 48px;
+border-radius: 10px;
+color: #ffffff;
+font-size: 18px;
+border: none;
+cursor: pointer;
+transition: 0.5s;
+}
+
+
+
+main .div0-main .div-main .button-main:hover{
+    background-color: #0466c1;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+
+main .div0-main .div-main .button-main a{
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+
+
+main .div0-main .img-main{
+    width: 250px;
+    
+}
+
+
+.YouTube{
+    background-color: #ffffff;
+}
+
+
+.YouTube .h5-YouTube{
+text-align: center;
+color: #0466c1;
+font-size: 15px;
+font-family: "Roboto", sans-serif;
+}
+
+
+
+.YouTube .h3-YouTube{
+    text-align: center;
+    font-size: 33px;
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0px;
+    }
+
+.YouTube .card{
+    display: flex;
+ 
+    justify-content: space-evenly;
+}
+
+
+.YouTube .card .card-YouTube{
+    width: 250px;
+   margin: 30px 0px;
+   transition: 0.8s;
+}
+
+
+.YouTube .card .card-YouTube .img-Youtube{
+width: 100%;
+border-radius: 10px;
+}
+
+
+
+.YouTube .card .card-YouTube .h4-YouTube{
+    margin: 17px 3px;
+    margin-bottom: 9px;
+    font-size: 17px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.YouTube .card .card-YouTube .a-YouTube{
+    text-decoration: none;
+    color: #0466c1;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin: 0px 3px;
+}
+
+
+.YouTube .card:hover > :not(:hover){
+    position: 0.5;
+    filter: blur(10px);
+    transform: scale(0.8);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+
+
+.Projects .h2-Projects{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+
+.Projects .card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+
+
+
+ .Projects .card:hover > :not(:hover){
+    position: 0.5;
+    filter: blur(10px);
+    transform: scale(0.8);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+
+
+
+.Projects .card .card-Projects{
+    width: 270px;
+    height: 300px;
+    border: #434242 solid 1px;
+    transition: 0.8s;
+    
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 160px;
+  }
+
+
+  .swiper .swiper-pagination{
+   margin-top: 30px;
+}
+
+
+.h6-Projects{
+    color: #000;
+    font-size:23px;
+    margin: 10px 3px;
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+.p-Projects{
+    font-family: "Roboto", sans-serif;
+    color: #4f4a4a;
+    margin-bottom: 40px ;
+    margin-left: 3px;
+}
+
+
+.a-Projects{
+    background: black;
+   padding: 14px;
+   border-radius: 4px;
+   margin: 20px 3px;
+   
+}
+
+
+.a-Projects i{
+    font-size: 17px;
+    color: white;
+  
+    direction: ltr; /* اتجاه النص من اليمين لليسار (مثل العربية) */
+}
+
+
+ 
+.Projects-div-button{
+    text-align: center;
+    margin: 50px 0px;
+}
+  
+.button-Projects1{
+    background-color: #000000;
+    width: 130px;
+    height: 48px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+   
+    }
+    
+    
+    
+.button-Projects1:hover{
+        background-color: #0466c1;
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+
+
+    
+    
+
+.end .Gmail-end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h3-end{
+    margin: 50px 0px;
+    font-family: "Roboto", sans-serif;
+   font-size: 24px;
+}
+
+.a-end{
+background-color: #000000;
+padding: 13px;
+border-radius: 20px;
+color: #ffffff;
+font-size: 18px;
+border: none;
+cursor: pointer;
+margin-top: 30px;
+margin-bottom: 30px;
+transition: 0.5s;
+text-decoration: none;
+}
+
+
+
+
+.a-end:hover{
+    background-color: #0466c1;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+hr{
+    width: 88%;
+    margin: 10px auto;
+}
+
+
+.h4-end{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.p-end{
+    font-family: "Roboto", sans-serif;
+    color: #4f4a4a;
+    width: 300px;
+}
+
+
+.icon-end a i{
+    color: black;
+    font-size: 20px;
+    transform: scale(1.1);
+    margin: 30px 10px 0px 0px ;
+}
+
+.icon-end a i:hover{
+    color: #0466c1;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+.div-end{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.div2{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.h4h-end{
+ margin: 0px 18px;
+ font-family: "Roboto", sans-serif;
+  
+}
+
+
+
+.pp-end{
+    margin: 8px 18px;  
+    font-family: "Roboto", sans-serif;
+    color: #4f4a4a;
+   }
+
+
+   .icon{
+    display: none;
+   }
+
+
+
+
+
+   
+
+
+
+
+   @media screen and (max-width: 767px){
+    main .div0-main {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 150px;
+        width: 100%;
+        max-width: 900px;
+    }
+
+
+    .div-main{
+        text-align: center;
+    }
+
+
+    .img-main{
+        margin-top: 100px;
+    }
+
+     
+    .card{
+        margin: 0 auto;
+       flex-wrap: wrap;
+       width: 90%;
+    }
+
+    
+ 
+
+    .card-Projects{
+       flex-wrap: wrap;
+    }
+    
+
+    .div-end{
+        flex-wrap: wrap;
+
+    }
+
+
+    .div1{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+    .Gmail-end{
+        flex-direction: column;
+    }
+
+    .h3-end{
+        margin-bottom: 15px;
+    }
+    header div ul li a {
+        display: none;
+    }
+    
+    .icon {
+        display: block;
+        margin-left: 50px;
+        border: none;
+        background: none;
+       font-size: 30px;
+    }
+}
+    
+    @media screen and (max-width: 767px) {
+        .menu.responsive {
+            position: relative;
+            display: block;
+        }
+        
+        .menu.responsive .icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-right: 50px;
+            border: none;
+            background: none;
+        }
+    
+        .menu.responsive ul li a {
+            display: block;
+            text-align: center;
+        }
+
+        .menu.responsive ul {
+            display: block;
+            margin-top: 40px;
+        }
+
+        .menu.responsive ul li{
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        
+    }
